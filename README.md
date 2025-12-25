@@ -1,4 +1,5 @@
-# triton-copilot
+# KernelGen
+
 Next-Generation AI-Assisted Kernel Engineering for Multi-Chip Systems, which is new in Flag-OS family.
 
 Experience it from:
