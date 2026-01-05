@@ -1,4 +1,4 @@
-| 算子名称 (Op Name) | 函数签名 (Schema) | 是否支持 (Supported) |
+| 算子名称 (Op Name) | 函数签名 (Schema) | FlagGems是否支持 (FlagGems Supported) |
 | :--- | :--- | :--- |
 | __and__ | `aten::__and__.Scalar(Tensor self, Scalar other) -> Tensor` | false |
 | __and__ | `aten::__and__.Tensor(Tensor self, Tensor other) -> Tensor` | false |
