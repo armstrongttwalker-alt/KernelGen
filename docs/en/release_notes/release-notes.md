@@ -8,7 +8,7 @@ This section includes the KernelGen release information.
   - Added support for the Sunrise AI accelerator platform, expanding the number of supported chips from six to seven.
 
 - **Enhanced features**
-  - Experimental TLE support has been extended to Web platform and Skills. Now Web platform, MCP, and Skills all support this experimental feature.
+  - Experimental TLE support has been extended to the Web platform.
 
 ## V2.0.0
 
