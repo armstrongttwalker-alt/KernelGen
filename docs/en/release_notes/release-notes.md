@@ -2,12 +2,20 @@
 
 This section includes the KernelGen release information.
 
+## V2.1.0
+
+- **Added features**
+  - Added support for the Sunrise AI accelerator platform, expanding the number of supported chips from six to seven.
+
+- **Enhanced features**
+  - Experimental TLE support has been extended to Web platform and Skills. Now Web platform, MCP, and Skills all support this experimental feature.
+
 ## V2.0.0
 
 - **Added features**：
   - Added support for creating, optimizing, and specializing Kernels across multiple hardware platforms via the KernelGen Operator Development MCP Toolkit, AI agents, and first- and third-party skills.
   - Added support for generating the FlagTree TLE operator on NVIDIA hardware platforms. TLE operator generation capability is an experimental feature currently under active development.
-  - Extended testing devices support to include MetaX platform.
+  - Extended testing device support to include MetaX platform.
   - Introduced a History panel to track modifications to the Kernel code.
 
 ## V1.0.0
