@@ -14,7 +14,7 @@ On the welcome page, perform the following steps to generate Kernels:
    - input parameters and data type
    - output parameters and data type
 
-    KernelGen searches for a list of GitHub repositories to find code snippets similar to the operator definitions. For more information about the list of GitHub repositories, see [Repository list](../search-repo-list.md).
+    KernelGen searches for a list of GitHub repositories to find code snippets similar to the operator definitions. For more information about the list of GitHub repositories, see [Repository list](../references/search-repo-list.md).
 
 2. Click each URL to view the corresponding code snippet in the right panel.
 
@@ -30,7 +30,7 @@ On the welcome page, perform the following steps to generate Kernels:
 
 5. On the operator definition and configuration page, modify the following parameters and configuration if needed, and then click **Next**：
 
-   - In the **Operator Definition** section, modify the following parameters:
+   - Modify the following parameters:
      - **Operator Name**: Extracted from your operator definitions.
      - **Testing device**: The operator testing device. This is different from the operator generation device you included in your prompts.
      - **Operator Type**: Inferred from your operator definitions.
@@ -40,13 +40,16 @@ On the welcome page, perform the following steps to generate Kernels:
 
    - In the **KernelGen Configuration** section, modify the following configuration:
      - **Auto Optimization Max Iteration Rounds**: The maximum number of iterations KernelGen attempts to pass the correctness test.
+
+   - In the **Lab** section, modify the following configuration:
+     - **Enable TLE-based Advanced Performance Optimization**: Introduces Triton-TLE primitives for performance optimization. This is an experimental feature and is enabled by default.
    ![alt text](../assets/images/operator-definition-en.png)
 
 6. In the confirmation dialogue box, click **Confirm**.
 
-   KernelGen begins to perform Kernel code generation, CUDA implementation, Correctness Test, and Speedup Ratio Test.
+   KernelGen begins to perform Kernel code generation, CUDA baseline implementation, Correctness Test, and Speedup Ratio Test.
 
-7. In the **KernelGen** panel on the right, check the statuses of the **Kernel**, **CUDA Implementation**, **Correctness Test**, and **Speedup Ratio Test**.
+7. In the **KernelGen** panel on the right, check the statuses of the **Kernel**, **CUDA Baseline Implementation**, **Correctness Test**, and **Speedup Ratio Test**.
 
    The statuses turn to **Generating**.
 
