@@ -41,7 +41,7 @@ On the welcome page, perform the following steps to generate Kernels:
    - In the **KernelGen Configuration** section, modify the following configuration:
      - **Auto Optimization Max Iteration Rounds**: The maximum number of iterations KernelGen attempts to pass the correctness test.
 
-   - In the **Lab** section, modify the following configuration:
+   - In the **Lab** section, modify the following configuration if needed:
      - **Enable TLE-based Advanced Performance Optimization**: Introduces Triton-TLE primitives for performance optimization. This is an experimental feature and is enabled by default.
    ![alt text](../assets/images/operator-definition-en.png)
 
